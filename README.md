@@ -7,8 +7,10 @@ The repository is organized into the following folders:
 
 ### 1. `esg-domain`
 - Contains Google Colab notebooks for the ESG domain experiments.
-    - **Dataset Creation (2 Notebooks):** Preparation and preprocessing of the ESG-related dataset for contrastive learning.
-    - **Training (1 Notebook):** Fine-tuning models with PEFT techniques like LoRA, DoRA, and IA3 for domain adaptation to ESG criteria.
+    - **Dataset Creation :**
+        -  Data_pairs_creation.ipynb : create a dataset with positive pairs using DeCLUTR
+        -  dataset_create_a_mix.ipynb : create a balanced dataset, where half of data is coming from adjacent positives and half is coming from subsuming positives. Also includes code for generating betch-negatives
+    - **Training :** Fine-tuning models with PEFT techniques like LoRA, DoRA, and IA3 for domain adaptation to ESG criteria.
 
 ### 2. `medical-domain`
 - Contains Google Colab notebooks for the medical domain experiments.
