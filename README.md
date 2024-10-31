@@ -8,7 +8,7 @@ The repository is organized into the following folders:
 ### 1. `esg-domain`
 - Contains notebooks for the ESG domain experiments.
     - **Dataset Creation :**
-        -  Data_pairs_creation.ipynb : create a dataset with positive pairs using DeCLUTR
+        -  Data_pairs_creation.ipynb : create a dataset with positive pairs using DeCLUTR (https://github.com/JohnGiorgi/DeCLUTR/tree/master)
         -  dataset_create_a_mix.ipynb : create a balanced dataset, where half of data is coming from adjacent positives and half is coming from subsuming positives. Also includes code for generating batch-negatives
     - **Training :** train.ipynb <- fine-tuning models with PEFT techniques like LoRA, DoRA, and IA3 and using sentence-transformers trainer.
 
